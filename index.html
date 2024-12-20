@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 웹디자인 - resposive WebDesign</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!--상단-->
+    <header>
+        <div class="inner">
+            <div id="logo">
+                <h1><a href="#">ilzen.com</a></h1>
+            </div><!--//#logo-->
+            <nav id="gnb">
+                <ul>
+                    <li class="depth_1"><a href="#">Home</a></li>
+                    <li class="depth_1"><a href="#">About</a>
+                <div class="sub">
+                    <ul>
+                        <li class="depth_2"><a href="#">Information</a></li>
+                        <li class="depth_2"><a href="#">History</a></li>
+                        <li class="depth_2"><a href="#">Skill</a></li>                            
+                    </ul>
+                </div><!--//.sub-->
+                    </li>
+            <li class="depth_1"><a href="#">Project</a>
+            <div class="sub">
+                <ul>
+                    <li class="depth_2"><a href="#">Website</a></li>
+                    <li class="depth_2"><a href="#">Visual Design</a></li>
+                    <li class="depth_2"><a href="#">Micro Projects</a></li>
+                    <li class="depth_2"><a href="#">ETC</a></li>
+                </ul>
+            </div><!--//.sub-->
+            </li>
+            <li class="depth_1"><a href="#">Archiving</a>
+                <div class="sub">
+                    <ul>
+                        <li class="depth_2"><a href="#">Blog</a></li>
+                        <li class="depth_2"><a href="#">Github</a></li>
+                    </ul>
+                </div><!--//.sub-->
+            </li>
+
+            <li class="depth_1"><a href="#">Contact</a></li>
+</ul>
+            </nav><!--//#gnb-->
+        </div><!--//.inner-->
+    </header>
+
+    <a href="#fixed_area" class="menu_btn"><i></i><i></i><i></i></a>
+
+    <!--중앙-->
+    <main>
+        <section id="main_view">
+            <div class="inner">
+                <h2>Web Design<br>Digital<br>Academy</h2>
+            </div>
+        </section><!--//main_view-->
+   
+        <aside id="fixed_area">
+            <div class="inner">
+                <h1><img src="images/header-bar-logo.png" alt="ilzen.com"></h1>
+                <p>Web Design Disital Academy</p>
+                <nav id="main_menu">
+                    <ul>
+                        <li class="depth_1"><a href="#">Home</a></li>
+                        <li class="depth_1"><a href="#">About</a>
+                    <div class="sub">
+                        <ul>
+                            <li class="depth_2"><a href="#">Information</a></li>
+                            <li class="depth_2"><a href="#">History</a></li>
+                            <li class="depth_2"><a href="#">Skill</a></li>                            
+                        </ul>
+                    </div><!--//.sub-->
+                        </li>
+                <li class="depth_1"><a href="#">Project</a>
+                <div class="sub">
+                    <ul>
+                        <li class="depth_2"><a href="#">Website</a></li>
+                        <li class="depth_2"><a href="#">Visual Design</a></li>
+                        <li class="depth_2"><a href="#">Micro Projects</a></li>
+                        <li class="depth_2"><a href="#">ETC</a></li>
+                    </ul>
+                </div><!--//.sub-->
+                </li>
+                <li class="depth_1"><a href="#">Archiving</a>
+                    <div class="sub">
+                        <ul>
+                            <li class="depth_2"><a href="#">Blog</a></li>
+                            <li class="depth_2"><a href="#">Github</a></li>
+                        </ul>
+                    </div><!--//.sub-->
+                </li>
+    
+                <li class="depth_1"><a href="#">Contact</a></li>
+    </ul>
+                </nav><!--//#main_menu-->
+            </div>
+        </aside><!--//#fixed_area-->
+
+    <section id="list" class="container">
+        <div class="inner">
+            <h2>Main List_(grid.css)</h2>
+                <ul class="grid">
+                    <li class="grid_item_col_4"><img src="images/list_img_1.jpg"></li>
+                    <li class="grid_item_col_4"><img src="images/list_img_2.jpg"></li>
+                    <li class="grid_item_col_4"><img src="images/list_img_3.jpg"></li>
+                </ul>
+        </div><!--//.inner-->
+    </section><!--//#list-->
+
+    <section id="main1" class="container">
+        <div class="inner">
+            <h2>Lorem ipsum dolor sit amet</h2>
+                <article class="grid">  
+                    <div class="grid_item_col_4"><img src="images/main-img-1-origin.jpg" alt=""></div>
+                    <div class="grid_item_col_8">
+                        <h3>Nulla ultricies dolor sit amet ipsum posuere ornare</h3>
+                        <p>Proin ornare ultricies libero ut porttitor.</p>
+                    </div>
+                </article>
+         
+                <article class="grid">  
+                    <div class="grid_item_col_8" style="order:2"><img src="images/main-img-2-origin.jpg" alt=""></div>
+                    <div  class="grid_item_col_4"style="order:1">
+                        <h3>Sed neque metus, rhoncus non accumsan eu, elementum laoreet enim.</h3>
+                        <p>Fusce molestie quam nulla, eleifend viverra urna luctus in.</p>
+                    </div>
+                </article>
+        </div><!--//.inner-->
+    </section><!--//#main1-->
+
+    <section id="main2" class="container">
+        <div class="inner">
+            <h2>Lorem ipsum dolor sit amet</h2>
+                <div class="contents grid">
+                    <article class="grid_item_col_3">
+                        <div><img src="images/sub-img-1-origin.jpg"></div>
+                        <div>
+                            <h3>Suspendisse mollis aliquet porttitor.</h3>
+                            <p>Praesent hendrerit vehicula ante quis facilisis.</p>
+                        </div>
+                    </article>
+                    <article class="grid_item_col_3">
+                        <div><img src="images/sub-img-2-origin.jpg"></div>
+                        <div>
+                            <h3>Etiam consequat lectus purus, at bibendum dui aliquam ac.</h3>
+                            <p>Duis consectetur felis justo, sed vestibulum massa venenatis id. Suspendisse potenti. Donec at tellus ut lorem commodo eleifend et eget libero.</p>
+                        </div>
+                    </article>
+                    <article class="grid_item_col_6">
+                        <div><img src="images/sub-img-3-origin.jpg"></div>
+                        <div>
+                            <h3>In hac habitasse platea dictumst.</h3>
+                            <p>Nam mattis aliquet efficitur.</p>
+                        </div>
+                    </article>
+                </div>
+        </div>
+    </section>
+ </main>
+    
+	<!--하단-->
+	<footer>
+		<div class="inner">
+			<address>&copy; 2024 - 2024 <strong>EZEN</strong> Ltd.
+			<a href="#">ilzen.com</a>, Web Design Course are registered trademarks of <strong>EZEN</strong> Ltd.<br>
+		Please review our Terms of Service as well as our Privacy Policy.</address>
+		</div><!--//.inner-->
+	</footer>
+
+
+
+<!--플러그인 연결-->
+    <script src="js/EzenScrollClass.js"></script>
+    <script src="js/EzenAddClass.js"></script>
+
+<!--플러그인 호출 문서 연결-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
